@@ -17,23 +17,29 @@
   </head>
 
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-    
+ <nav>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#projects">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#resume">Resume</a>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+    </li>
+  </ul>
+  
 </nav>
-      <!-- START THE FEATURETTES -->
+  
 
       <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Laura Solano: <span class="text-muted">In a nutshell</span></h2>
+          <h2 id= "about" class="featurette-heading">Laura Solano: <span class="text-muted">In a nutshell</span></h2>
           <p class="lead">I started in the tech field a** backwards. I didn't know what I wanted as a career and just started sending applications out to jobs because you have to pay your bills. I got lucky with one application and began working as a receptionist at a tech company. From there I slowly moved myself into new positions that furthered my tech education. 
             I have found I enjoy the puzzles, creativity and organization that go along with working in the tech field. I'm excited for what the future roles I hold will be.
           </p>
@@ -48,14 +54,13 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Work I've done: <span class="text-muted">Just a few projects</span></h2>
+          <h2 id = "projects" class="featurette-heading">Work I've done: <span class="text-muted">Just a few projects</span></h2>
           <p class="lead">Below are some projects I've worked with CSS, HTML, and JS</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
         
         </div>
       </div>
-    <!-- Carousel-->
 
     <div id="our-carousel">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -85,7 +90,7 @@
             <img src= "Static Page.JPG" class = "d-block" alt="Static website of Hulu front page.">
             <div class="carousel-caption d-none d-md-block">
               <h5>static Layout</h5>
-              <p>Static website of Hulu front page.</p>
+              <p>Static website of Hulu front page</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -130,7 +135,7 @@
       <hr class="featurette-divider">
 
 
-      <div class="row featurette">
+      <div id= "resume" class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Want to hire me?<span class="text-muted"> Check out my resume</span></h2>
           <p class="lead">You can download my resume here.
@@ -145,9 +150,9 @@
 
       <hr class="featurette-divider">
 
-      <section id="contact">
+      <section>
       
-        <section class = "contact">
+        <section id="contact" class = "contact">
           <div class = "container">
             <br><br>
             <h1>Contact Me</h1>
